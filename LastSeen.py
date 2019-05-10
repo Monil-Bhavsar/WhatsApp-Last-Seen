@@ -24,6 +24,8 @@ driver.get('https://web.whatsapp.com/')
 
 i = input("Press any key to Continue")
 
+#Change "My No" to person's name whom you want to track.
+#Note:Name should be same as the person name you saved in whatsapp contact.
 user = driver.find_element_by_xpath('//span[@title = "{}"]'.format("My No"))
 user.click()
 
